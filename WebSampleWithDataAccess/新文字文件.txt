@@ -1,0 +1,13 @@
+CREATE TABLE `user` (
+	`row_num` INT(11) NOT NULL AUTO_INCREMENT,
+	`user_id` VARCHAR(50) NULL DEFAULT NULL,
+	`user_name` VARCHAR(50) NULL DEFAULT NULL,
+	`is_active` VARCHAR(2) NULL DEFAULT 'Y',
+	`created_date` DATETIME NULL DEFAULT NULL,
+	`updated_date` DATETIME NULL DEFAULT NULL,
+	PRIMARY KEY (`row_num`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=3
+;

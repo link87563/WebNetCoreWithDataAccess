@@ -1,0 +1,14 @@
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\bin\Debug\netcoreapp2.1\WebSampleWithDataAccess.deps.json
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\bin\Debug\netcoreapp2.1\WebSampleWithDataAccess.runtimeconfig.json
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\bin\Debug\netcoreapp2.1\WebSampleWithDataAccess.runtimeconfig.dev.json
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\bin\Debug\netcoreapp2.1\WebSampleWithDataAccess.dll
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.csprojAssemblyReference.cache
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.RazorAssemblyInfo.cache
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.RazorAssemblyInfo.cs
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.AssemblyInfoInputs.cache
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.AssemblyInfo.cs
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.RazorTargetAssemblyInfo.cache
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\bin\Debug\netcoreapp2.1\WebSampleWithDataAccess.pdb
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.dll
+C:\Users\b8756\source\repos\WebSampleWithDataAccess\WebSampleWithDataAccess\obj\Debug\netcoreapp2.1\WebSampleWithDataAccess.pdb

@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "42f3e0f3-d4b0-4a4c-9401-49ada846a75c",
+		"name": "WebSampleWithDataAccess",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/user/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "1",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert new data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/user/?UserId=ccc&UserName=CCC&IsActive=Y",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "ccc"
+						},
+						{
+							"key": "UserName",
+							"value": "CCC"
+						},
+						{
+							"key": "IsActive",
+							"value": "Y"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a data by user id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/user/aaa?",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"user",
+						"aaa"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "ccc",
+							"disabled": true
+						},
+						{
+							"key": "UserName",
+							"value": "CCC",
+							"disabled": true
+						},
+						{
+							"key": "IsActive",
+							"value": "Y",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a  data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/user/?RowNum=1&UserId=aaa&UserName=AAA&IsActive=Y&CreatedDate=2019-12-30 14:37:45",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "RowNum",
+							"value": "1"
+						},
+						{
+							"key": "UserId",
+							"value": "aaa"
+						},
+						{
+							"key": "UserName",
+							"value": "AAA"
+						},
+						{
+							"key": "IsActive",
+							"value": "Y"
+						},
+						{
+							"key": "CreatedDate",
+							"value": "2019-12-30 14:37:45"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a data by user id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/user/aaa/JJJ?",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"user",
+						"aaa",
+						"JJJ"
+					],
+					"query": [
+						{
+							"key": "RowNum",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "UserId",
+							"value": "aaa",
+							"disabled": true
+						},
+						{
+							"key": "UserName",
+							"value": "AAA",
+							"disabled": true
+						},
+						{
+							"key": "IsActive",
+							"value": "Y",
+							"disabled": true
+						},
+						{
+							"key": "CreatedDate",
+							"value": "2019-12-30 14:37:45",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a data by user id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/user/aaa?",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"user",
+						"aaa"
+					],
+					"query": [
+						{
+							"key": "RowNum",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "UserId",
+							"value": "aaa",
+							"disabled": true
+						},
+						{
+							"key": "UserName",
+							"value": "AAA",
+							"disabled": true
+						},
+						{
+							"key": "IsActive",
+							"value": "Y",
+							"disabled": true
+						},
+						{
+							"key": "CreatedDate",
+							"value": "2019-12-30 14:37:45",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
