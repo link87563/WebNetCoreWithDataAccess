@@ -12933,11 +12933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\b8756\\source\\repos\\WebSampleWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\b8756\\Documents\\GitHub\\WebNetCoreWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess.csproj",
       "projectName": "WebSampleWithDataAccess",
-      "projectPath": "C:\\Users\\b8756\\source\\repos\\WebSampleWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess.csproj",
+      "projectPath": "C:\\Users\\b8756\\Documents\\GitHub\\WebNetCoreWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess.csproj",
       "packagesPath": "C:\\Users\\b8756\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\b8756\\source\\repos\\WebSampleWithDataAccess\\WebSampleWithDataAccess\\obj\\",
+      "outputPath": "C:\\Users\\b8756\\Documents\\GitHub\\WebNetCoreWithDataAccess\\WebSampleWithDataAccess\\WebSampleWithDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

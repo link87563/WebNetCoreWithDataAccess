@@ -17,10 +17,6 @@
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "https://localhost:44359/api/user/",
 					"protocol": "https",
@@ -56,10 +52,6 @@
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "https://localhost:44359/api/user/?UserId=ccc&UserName=CCC&IsActive=Y",
 					"protocol": "https",
@@ -102,10 +94,6 @@
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "https://localhost:44359/api/user/aaa?",
 					"protocol": "https",
@@ -144,10 +132,6 @@
 			"request": {
 				"method": "PUT",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "https://localhost:44359/api/user/?RowNum=1&UserId=aaa&UserName=AAA&IsActive=Y&CreatedDate=2019-12-30 14:37:45",
 					"protocol": "https",
@@ -191,10 +175,6 @@
 			"request": {
 				"method": "PUT",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "https://localhost:44359/api/user/aaa/JJJ?",
 					"protocol": "https",
@@ -244,10 +224,6 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "https://localhost:44359/api/user/aaa?",
 					"protocol": "https",
@@ -285,6 +261,67 @@
 							"key": "CreatedDate",
 							"value": "2019-12-30 14:37:45",
 							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Refresh Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "refreshToken",
+							"value": "b1914067f9b542739e6154a516914f64",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/token/refresh",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"token",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login and get new Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44359/api/token?UserId=aaa&UserPassword=123",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "aaa"
+						},
+						{
+							"key": "UserPassword",
+							"value": "123"
 						}
 					]
 				}
